@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <label>Введите количество товара</label>
+        <input type="number"  id="quantity" value="1" min="1">
+        <br>
+        <br>
+        <label for="product">Выбирите товар</label>
+        <select id="product">
+            <option value="one">Товар 1 - 100 руб.</option>
+            <option value="two">Товар 2 - 200 руб.</option>
+            <option value="three">Товар 3 - 300 руб.</option>
+        </select>
+        <br>
+        <br>
+        <label>Рассчитать стоимость</label>
+        <button id="priceBtn">Рассчитать</button>
+        <br>
+        <br>
+        <div id="result"></div>
+    </div>
+
+    <script src="main.js">
+        
+    </script>
+</body>
+</html>
